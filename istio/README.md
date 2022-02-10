@@ -3,6 +3,8 @@
 # Getting Started
 ```
 $ curl -L https://git.io/getLatestIstio | sh -
+
+$ sudo cp istio-1.12.2/bin/istioctl /usr/local/bin/istioctl
 ```
 
 Specific Version

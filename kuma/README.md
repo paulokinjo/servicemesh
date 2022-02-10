@@ -9,7 +9,7 @@ $ tar xvzf kuma-*.tar.gz
 
 # Run
 ```
-$ ln -s kuma-1.4.1/bin/kumactl /usr/local/bin/kumactl
+$ sudo cp kuma-1.4.1/bin/kumactl /usr/local/bin/kumactl
 
 $ kumactl install control-plane | kubectl apply -f -
 ```
